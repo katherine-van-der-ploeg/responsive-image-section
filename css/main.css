@@ -19,17 +19,70 @@ html {
 
 body {
   background-color: #e2e2e2;
+  margin: 0;
+}
+
+h1 {
+  margin: 0;
+  padding: 1rem;
+  text-align: left;
+}
+
+h2 {
+  margin: 0;
+  padding-top: 1rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  text-align: left;
 }
 
 a {
   padding: 0.5em 0.75em;
+  margin: 1em;
   background-color: #555;
   text-decoration: none;
   color: #fff;
   border-radius: 4px;
+  text-align: center;
 }
 
+a:hover {
+  background-color: #000;
+}
 
-@media only screen and (min-width: 25em)
-@media only screen and (min-width: 38em)
-@media only screen and (min-width: 60em)
+p {
+  margin: 0;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-bottom: 1rem;
+  text-align: left;
+}
+
+.img-flex {
+  width: 100%;
+  display: block;
+  padding-top: 1em;
+}
+
+@media only screen and (min-width: 38em){
+
+  html {
+    font-size: 110%;
+    line-height: 1.4;
+  }
+
+  .img-flex {
+    display: inline-block;
+    max-width: 50%;
+    padding: 0;
+  }
+
+}
+
+@media only screen and (min-width: 60em){
+
+}
+
+@media only screen and (min-width: 90em){
+
+}

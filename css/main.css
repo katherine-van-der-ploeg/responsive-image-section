@@ -18,9 +18,18 @@ html {
 }
 
 body {
-  margin: 0;
+  background-color: #e2e2e2;
 }
 
-h1 {
-  padding: 2rem;
+a {
+  padding: 0.5em 0.75em;
+  background-color: #555;
+  text-decoration: none;
+  color: #fff;
+  border-radius: 4px;
 }
+
+
+@media only screen and (min-width: 25em)
+@media only screen and (min-width: 38em)
+@media only screen and (min-width: 60em)
